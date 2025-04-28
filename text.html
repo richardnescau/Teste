@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoisR Community - Loja de GTA</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0;
+        }
+        header {
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            padding: 10px;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #00ffff;
+        }
+        .banner {
+            background: url('https://wallpapercave.com/wp/wp2607300.jpg') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .container {
+            padding: 30px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            border-color: #00ffff;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-info h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product-info p {
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        .buy-button {
+            background: linear-gradient(90deg, #00ffff, #ff00ff);
+            color: black;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .buy-button:hover {
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            color: white;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    DoisR Community
+</header>
+
+<nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="banner">
+    Bem-vindo à melhor loja de GTA!
+</section>
+
+<section class="container" id="produtos">
+    <h2 style="text-align:center; margin-bottom:20px;">Nossos Produtos</h2>
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://i.imgur.com/4ZQZ4hD.jpg" alt="Cheat GTA">
+            <div class="product-info">
+                <h3>Cheat Premium GTA</h3>
+                <p>Melhor proteção, atualizações diárias, suporte 24h.</p>
+                <button class="buy-button">Comprar Agora</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/BXBlzZc.jpg" alt="Menu Mod GTA">
+            <div class="product-info">
+                <h3>Mod Menu VIP</h3>
+                <p>Funções exclusivas para dominar o servidor!</p>
+                <button class="buy-button">Comprar Agora</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/LjNHPx0.jpg" alt="Spoofer GTA">
+            <div class="product-info">
+                <h3>Spoofer Anti-ban</h3>
+                <p>Proteja sua conta contra bans de servidores.</p>
+                <button class="buy-button">Comprar Agora</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="sobre">
+    <h2 style="text-align:center; margin-bottom:20px;">Sobre Nós</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+        Somos a DoisR Community, referência em mods e cheats para GTA! Nosso objetivo é oferecer segurança, inovação e diversão aos nossos clientes. Conte com nossa equipe especializada e suporte imediato.
+    </p>
+</section>
+
+<section class="container" id="contato">
+    <h2 style="text-align:center; margin-bottom:20px;">Contato</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+        Entre em contato conosco pelo Discord: <strong>discord.gg/nescaumenu</strong> 
+    </p>
+</section>
+
+<footer>
+    &copy; 2025 DoisR Community. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
